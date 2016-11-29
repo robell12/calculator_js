@@ -1,0 +1,17 @@
+#calc-body{
+  border:5px solid #42a5f5;
+   margin-top:10px;
+   padding-top: 10px;
+}
+body{
+  background-color: grey;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.caluculator {
+  width: 30%;
+  margin: 0 auto;
+}

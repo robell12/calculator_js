@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title> Calculator </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link href='assets/stylesheets/app.css' rel='stylesheet' type='text/css' />
+  </head>
+
+  <body class='center'>
+    <h1 id='main-header'>Calculation Friend</h1>
+    <hr />
+
+    <div id='calc-body' class='row caluculator purple lighten-3'>
+      <div id='calc-display' class='col s12'></div>
+      <div class='col s12'>
+        <div class='calc-button btn'>1</div>
+        <div class='calc-button btn'>2</div>
+        <div class='calc-button btn'>3</div>
+        <div class='calc-button btn orange'>+</div>
+      </div>
+      <div class='col s12'>
+        <div class='calc-button btn'>4</div>
+        <div class='calc-button btn'>5</div>
+        <div class='calc-button btn'>6</div>
+        <div class='calc-button btn orange'>-</div>
+      </div>
+      <div class='col s12'>
+        <div class='calc-button btn'>7</div>
+        <div class='calc-button btn'>8</div>
+        <div class='calc-button btn'>9</div>
+        <div class='calc-button btn orange'>*</div>
+      </div>
+      <div class='col s12'>
+        <div class='btn' id='sq-button'>x<sup>2</sup></div>
+        <div class='btn' id='cube-button'>x<sup>3</sup></div>
+        <div id='sqrt-button' class='btn'>&#8730</div>
+        <div class='calc-button btn orange'>/</div>
+      </div>
+      <div class='col s12'>
+        <div class='btn' id='sin-button'>sin<sup>o</sup></div>
+        <div class='btn' id='cos-button'>cos<sup>o</sup></div>
+        <div class='btn' id='tan-button'>tan<sup>o</sup></div>
+      </div>
+      <div class='col s12'>
+        <div class='calc-button btn'>0</div>
+        <div id='eq-button' class='btn green'>=</div>
+      </div>
+      <div class='btn red col s12' id='clear'>C</div>
+    </div>
+    <ul id='history-btn'>
+    </ul>
+
+    <script src='assets/javascripts/calc.js'></script>
+  </body>
+</html>
